@@ -1,0 +1,31 @@
+* file generator for nn
+- lower case
+- no accents
+- 2 - 15 character limit
+- 10000 words
+- format= word, uniqueId
+- 
+
+** exceptions
+- hyphens
+- dashes
+
+
+** English
+- wikipedia scrape
+** German
+- wikipedia scrape
+** Chinese
+- google translate
+** Random
+- geneator website
+** Keymah
+- mash it in myself
+* data format
+- txt files
+- each word has a uniqueID next to it consisting of 11 digits
+- 2-15 character limit
+- 10000 words
+- accents such as ò are replaced by the closest matching letter using =unidecode.unidecode=
+- apostrophes for chinese words are removed
+
